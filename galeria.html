@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Galeria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=stylesheet type=text/css href=lightbox.min.css>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <style>
+        body{
+            padding-top:5px;
+        }
+        a{
+            display: none;
+        }
+        @media screen and (max-width: 600px) {
+            a{display: flex;font-size: 5vw;}
+            
+        }
+    </style>
+</head>
+<body>
+<div class="gallery">
+<a id = "1" href="images/g2.png" data-lightbox="mygallery"><img src="images/g2-min.png" class="galleryimg" alt="zdjęcie_G2"></a>
+<a href="images/galatasaray.png" data-lightbox="mygallery"><img src="images/galatasaray-min.png" class="galleryimg" alt="zdjęcie_GS"> </a>
+<a href="images/red.png" data-lightbox="mygallery"><img src="images/red-min.png" class="galleryimg" alt="zdjęcie_RED"></a>
+<a href="images/fpx.png" data-lightbox="mygallery"><img src="images/fpx-min.png" class="galleryimg" alt="zdjęcie_FPX"></a>
+<a href="images/t1.png" data-lightbox="mygallery"><img src="images/t1-min.png" class="galleryimg" alt="zdjęcie_T1"></a>
+<a href="images/msf.png" data-lightbox="mygallery"><img src="images/msf-min.png" class="galleryimg" alt="zdjęcie_MSF"></a>
+<a href="images/tes.png" data-lightbox="mygallery"><img src="images/tes-min.png" class="galleryimg" alt="zdjęcie_TES"></a>
+<a href="#1">Do góry</a>
+</div>
+</body>
+</html>

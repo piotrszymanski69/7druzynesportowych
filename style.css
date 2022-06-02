@@ -1,0 +1,177 @@
+body{
+  margin-top:5%;
+  margin-right:5%;
+  margin-left:5%;
+  background-image: url(images/tlo-g2.png);
+  background-position: fixed;
+}
+
+#header{
+  position:relative;
+  width:100%;
+  height:10vh;
+  background-color: rgba(255,255,255,0.7);
+  text-align: center;
+  font-family: Impact;
+  font-size: 3vw;
+  border-color: black;
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 25%;
+  min-height: 85px;
+}
+
+#menu{
+  position:relative;
+  width:100%;
+  top: 15%;
+  height:7vh;
+  background-color: rgba(255,255,255,0.7);
+  text-align:center;
+  border-color: black;
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 25%;
+  min-height: 75px;
+}
+
+#menu a{
+  text-decoration: none;
+  color: black;
+  font-size: 2vw;
+  position: relative;
+  top: 1.5vh;
+  padding-right: 4vw;
+  padding-left: 4vw;
+  font-family: Impact;
+}
+
+#menu a:hover{
+  text-decoration: none;
+  color:rgb(48, 108, 236);
+  
+}
+
+#main{
+  position:relative;
+  width:68%;
+  height:64vh;
+  float:left;
+  background-color: rgba(255,255,255,0.7);
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  
+}
+
+#right-main{
+  position:relative;
+  width:30%;
+  height:64vh;
+  float:right;
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  background-color: rgba(255,255,255,0.7);
+  
+}
+
+iframe{
+  height:100%;
+  width:100%;
+}
+
+#footer{
+  clear:both;
+  position:relative;
+  width:100%;
+  top:1vh;
+  background-color: rgba(255,255,255,0.7);
+  text-align: center;
+  height:2vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+#right-main{
+  display: none;
+}
+#main{
+  width:100%;
+}
+#menu a{
+  text-decoration: none;
+  color: black;
+  font-size: 3vw;
+  position: relative;
+  top: 1.5vh;
+  padding-right: 3vw;
+  padding-left: 3vw;
+  font-family: Impact;
+}
+#header{
+  font-size: 5vw;
+  
+}
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  #header{
+    font-size: 7vw;
+    height: 7%;
+    padding-top: 5vw;
+    padding-bottom: -5vw;
+  }
+  #menu{
+    position:relative;
+    width:100%;
+    top: 15%;
+    height:7vh;
+    background-color: transparent;
+    text-align:center;
+    border: 0;
+    height: 200px;
+  }
+  
+  #menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 8vw;
+    position: relative;
+    top: 1.0vh;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    font-family: Impact;
+    background-color: rgba(255,255,255,0.7);
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 25%;
+    min-height: 55px;
+  }
+  #main{
+    height: 54vh;
+    
+  }
+}

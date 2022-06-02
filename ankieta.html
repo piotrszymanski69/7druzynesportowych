@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Ankieta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body{
+            text-align:center;
+            font-size: 2vw;
+            font-family: Impact;
+        }
+        input{
+            font-size: 2vw;
+            height: 4vh;
+            min-height: 30px;
+        }
+        select{
+            font-size: 2vw;
+            height: 4vh;
+            min-height: 30px;
+        }
+        @media screen and (max-width: 600px) {
+            body{
+            text-align:center;
+            font-size: 4vw;
+            font-family: Impact;
+        }
+        input{
+            font-size: 4vw;
+            height: 4vh;
+            min-height: 30px;
+        }
+        select{
+            font-size: 4vw;
+            height: 4vh;
+            min-height: 30px;
+        }
+        }
+    </style>
+
+
+
+</head>
+<body>
+<div id="ankieta">
+    <form action="mailto:piotr.szymanski@tm1.edu.pl"
+    method="post">
+    <br>
+    <label for=imie>Imię: </label>
+    <input type=text name=imie id=imie>
+    <br>
+    <label for=nazwisko>Nazwisko: </label>
+    <input type=text name=nazwisko id=nazwisko>
+    <br>
+    <br>
+    <label id="plec">Płeć: </label>
+    <br>
+    <input type=radio name=plec id=kobieta value=kobieta>
+    <label for=kobieta>Kobieta</label>
+    <br>
+    <input type=radio name=plec id=mezczyzna value=mezczyzna>
+    <label for=mezczyzna>Mężczyzna</label>
+    <br>
+    <input type=radio name=plec id=nie value=nie>
+    <label for=nie>Nie chcę podawać</label>
+    <br>
+    <br>
+    <label for=ocena>Jak oceniasz stronę?</label>
+    <select name=ocena id=ocena>
+        <option value=dobrze>Dobrze</option>
+        <option value=zle disabled>Źle</option>
+    </select>
+    <br><br>
+    <label for=ulubiona>Którą z tych drużyn lubisz najbardziej?</label>
+    <select name=ulubiona id=ulubiona>
+        <option value=g2>G2 Esports</option>
+        <option value=gs>Galatasaray Esports</option>
+        <option value=red>RED Canids Kalunga</option>
+        <option value=fpx>FunPlus Phoenix</option>
+        <option value=t1>T1</option>
+        <option value=msf>Misfits Gaming</option>
+        <option value=tes>Top Esports</option>
+    </select>
+        <br>
+
+
+
+
+    <br>
+    <br>
+    <input type="submit" value=Wyślij>
+    <input type="reset" value=Wyczyść>
+    <br>
+    <br>
+    <br>
+
+
+            </form>
+</div>
+</body>
+</html>
